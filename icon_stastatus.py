@@ -62,7 +62,7 @@ class SpareTheAirIndicator:
 			self.set_icon( 'icons/sta-no_alert.png' )
 		elif status == 'Unstable!':
 			self.set_icon( 'icons/sta-error_alert.png' )
-		elif status == 'Offline!':
+		elif status == 'Alert In Effect':
 			self.set_icon( 'icons/sta-active_alert.png' )
 
 		self.change_app_icon()
